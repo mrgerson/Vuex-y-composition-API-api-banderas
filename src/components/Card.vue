@@ -18,7 +18,8 @@
 <script>
 export default {
     props: ['pais'],
-    setup(){
+    setup(props){
+        /* console.log(props.pais.flags[0]) */
         const numeroFormato = (num) => {
             return new Intl.NumberFormat("de-DE").format(num)  //darle formato a los numeros 
         }

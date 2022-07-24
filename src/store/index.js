@@ -17,6 +17,7 @@ export default createStore({
     async getPaises({ commit }) {
       try {
         const res = await fetch('https://restcountries.com/v2/all')
+       /*  const res = await fetch('https://restcountries.com/v3/all') */
         const data = await res.json()
         // console.log(data)
         commit('setPaises', data)
