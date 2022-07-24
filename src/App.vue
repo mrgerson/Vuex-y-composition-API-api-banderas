@@ -4,6 +4,9 @@
     <Continentes />
     <Buscador />
     <CardList />
+
+   <!--  servidor gratuito
+    https://app.netlify.com/ -->
   </div>
 </template>
 
